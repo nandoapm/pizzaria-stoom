@@ -1,0 +1,35 @@
+.headerContainer {
+    background: var(--blue-500);
+    height: 200px;
+
+
+    .headerContent {
+        max-width: 1120px;
+        height: 200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+        display: flex;
+        align-items: center;
+
+        >svg {
+            margin-bottom: 3rem;
+            width: 65px;
+            height: 65px;
+            color: var(--yellow-500)
+        }
+
+        .headerBody {
+            margin-bottom: 3rem;
+            padding-left: 1rem;
+
+            span {
+                color: var(--yellow-500);
+                font-weight: 700;
+            }
+        }
+    
+        section {
+            margin-left: auto;
+        }
+    }
+}
