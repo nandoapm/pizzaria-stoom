@@ -1,0 +1,22 @@
+.contentContainer {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    height: calc(100vh - 260px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    section + section {
+        margin-left: 1rem;
+    } 
+
+    .cardContent {
+        width: 400px;
+        height: 500px;
+        background: var(--gray-100);
+        border-radius: 1rem;
+        padding: 1rem;
+        margin-bottom: 17rem;
+    }
+}

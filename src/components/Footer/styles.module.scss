@@ -1,0 +1,25 @@
+.footerContainer {
+    background: var(--blue-500);
+    height: 60px;
+
+    .footerContent {
+        margin: 0 auto;
+        max-width: 1120px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        >svg {
+            width: 20px;
+            height: 20px;
+            color: var(--white);
+            cursor: pointer;
+        }
+
+        >span {
+            padding-right: 0.5rem;
+            color: var(--white)
+        }
+    }
+}
