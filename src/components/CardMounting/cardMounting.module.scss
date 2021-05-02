@@ -1,0 +1,92 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+
+    .cardContent {
+        >h1 {
+            font-size: 20px;
+            color: #808080;
+        }
+        >span {
+            display: inline-block;
+            font-size: 1rem;
+            color: var(--blue-500);
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        .cardChoose {
+            background: var(--white);
+            border-radius: 0.5rem;
+            display: flex;
+            margin-bottom: 1rem;
+            padding-right: 1rem;
+            >img {
+                width: 100px;
+                height: 110px;
+                border-radius: 0.5rem 0 0 0.5rem;
+            }
+
+            >div {
+                padding: 1rem;
+            }
+
+            >input {
+                margin-left: auto;
+                display: flex;
+                align-self: center;
+            }
+        }
+        
+        label {
+            display: inline-block;
+            font-size: 0.8rem;
+            padding-bottom: 0.2rem;
+            color: #808080;
+            font-weight: 600;
+        }
+
+        p {
+            font-weight: 600;
+            font-size: 1.2rem;
+            padding-bottom: 0.2rem;
+            color: var(--gray-700);
+        }
+
+        .cardPrice {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 0.5rem;
+
+            button {
+                margin-bottom: 1rem;
+                background:var(--green-500);
+                color: var(--white);
+                font-weight: 600;
+                border: none;
+                padding: 0.5rem 1rem;
+                border-radius: 10px;
+                margin-left: auto;
+                transition: filter 0.2s;
+                svg {
+                    margin-left: 1rem;
+                }
+            }
+
+            button:hover {
+                filter: brightness(0.9)
+            }
+        }
+    }
+
+    .cardDescription {
+        color: var(--gray-700);
+        margin-top: 0.5rem;
+        font-size: 0.8rem;
+        margin-left: auto;
+
+        >strong {
+            color:var(--red-500)
+        }
+    }
+    
+}

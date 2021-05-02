@@ -1,4 +1,7 @@
 import Head from 'next/head';
+import React from 'react';
+import { CardMounting } from '../components/CardMounting';
+import { CardToday } from '../components/CardToday';
 import styles from './home.module.scss';
 
 export default function Home() {
@@ -9,13 +12,10 @@ export default function Home() {
     </Head>
       <main className={styles.contentContainer}>
         <section className={styles.cardContent}>
-            <h1>Minha home</h1>
+            <CardToday />
         </section>
         <section className={styles.cardContent}>
-            <h1>Minha home</h1>
-        </section>
-        <section className={styles.cardContent}>
-            <h1>Minha home</h1>
+            <CardMounting />
         </section>
       </main>
     </>
