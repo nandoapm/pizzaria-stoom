@@ -17,4 +17,45 @@
         margin-bottom: 17rem;
     }
 
+    .close {
+        display: flex;
+        justify-content: flex-end;
+        
+        >button {
+            border: none;
+            background: var(--gray-100);
+            >svg {
+                width: 30px;
+                height: 30px;
+                color: var(--red-500);
+            }
+        }
+    }
+
+    .progress {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 2rem;
+
+        >button {
+            border: none;
+            border-radius: 10px;
+            padding:0.5rem;
+            background: var(--gray-100);
+            color: var(--green-500);
+            display: flex;
+            align-items: center;
+            transition: filter 0.2s;
+
+            svg {
+                width: 30px;
+                height: 30px;
+                color: var(--green-500);
+            }
+        }
+        >button:hover {
+            filter: brightness(0.9)
+        }
+    }
+
 }
