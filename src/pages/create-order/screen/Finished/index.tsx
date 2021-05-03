@@ -11,6 +11,7 @@ export function Finished(props) {
     const [points, setPoints] = useState("")
 
     useEffect(() => {
+        console.log(props.today)
         setProducts( new Array(props.orders.products))
         setFlavors(new Array(props.orders.flavors))
         setAdditionals(new Array(props.orders.additionals))

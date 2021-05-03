@@ -22,6 +22,14 @@ export const products = [
             {price: 10, drinks: "Cerveja", additional: "Cebela +"},
             {price: 2, drinks: "Água com gás", additional: "Azeitonas + "},
             {price: 13, drinks: "Drink Especial", additional: "Catupiry +"}
+        ],
+        todayPromotion: [
+            {price: 30, points: 50, day: 1, pizza: "Calabresa", ingredients: "mussarela, peito de peru, palmito, parmesão, oregano"},
+            {price: 30, points: 50, day: 2, pizza: "Frango", ingredients: "mussarela, peito de peru, palmito, parmesão, oregano"},
+            {price: 30, points: 50, day: 3, pizza: "Queijo", ingredients: "mussarela, peito de peru, palmito, parmesão, oregano"},
+            {price: 30, points: 50, day: 4, pizza: "Chocolate", ingredients: "mussarela, peito de peru, palmito, parmesão, oregano"},
+            {price: 30, points: 50, day: 5, pizza: "Portuguesa", ingredients: "mussarela, peito de peru, palmito, parmesão, oregano "},
+            {price: 30, points: 50, day: 6, pizza: "Italiana", ingredients: "mussarela, peito de peru, palmito, parmesão, oregano"}
         ]
     }
 ]
