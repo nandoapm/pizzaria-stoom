@@ -22,12 +22,12 @@
             padding-right: 1rem;
             >img {
                 width: 100px;
-                height: 110px;
+                height: 80px;
                 border-radius: 0.5rem 0 0 0.5rem;
             }
 
             >div {
-                padding: 1rem;
+                padding: 0.5rem;
             }
 
             >input {
@@ -55,7 +55,7 @@
         .cardPrice {
             display: flex;
             justify-content: space-between;
-            margin-top: 0.5rem;
+            margin-top: 2.5rem;
 
             button {
                 margin-bottom: 1rem;
@@ -80,7 +80,7 @@
 
     .cardDescription {
         color: var(--gray-700);
-        margin-top: 0.5rem;
+        margin-top: 1rem;
         font-size: 0.8rem;
         margin-left: auto;
 

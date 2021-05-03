@@ -1,27 +1,27 @@
 .contentContainer {
-    max-width: 1120px;
+    max-width: 1050px;
     margin: 0 auto;
     padding: 0 2rem;
-    height: calc(100vh - 260px);
+    height: calc(100vh - 170px);
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--red-500);
 
     .cardContent {
-        width: 800px;
-        height: 500px;
+        width: 600px;
+        height: 480px;
         background: var(--gray-100);
         border-radius: 1rem;
         padding: 1rem;
-        margin-bottom: 17rem;
+        margin-bottom: 4rem;
     }
 
     .close {
         display: flex;
         justify-content: flex-end;
         
-        >button {
+        >a {
             border: none;
             background: var(--gray-100);
             >svg {
@@ -31,31 +31,4 @@
             }
         }
     }
-
-    .progress {
-        display: flex;
-        justify-content: space-between;
-        padding: 0 2rem;
-
-        >button {
-            border: none;
-            border-radius: 10px;
-            padding:0.5rem;
-            background: var(--gray-100);
-            color: var(--green-500);
-            display: flex;
-            align-items: center;
-            transition: filter 0.2s;
-
-            svg {
-                width: 30px;
-                height: 30px;
-                color: var(--green-500);
-            }
-        }
-        >button:hover {
-            filter: brightness(0.9)
-        }
-    }
-
 }

@@ -3,11 +3,20 @@
     padding: 1rem;
     border-radius: 5px;
     height: 230px;
-    margin-bottom: 1rem;
+    display: flex;
+    .sideLeft {
+        width: 50%;
+    }
 
-    .cardSize {
+    .sideRight {
+        width: 50%;
+        padding-left: 1rem,
+    }
+
+    .cardOrder {
         color: var(--blue-500);
         display: flex;
+        font-size: 0.8rem;
         flex-direction: column;
         justify-content: space-between;
 
@@ -15,41 +24,40 @@
             >h1 {
                 margin-bottom: 0.5rem;
             }
-
+            
             >select {
                 margin-bottom: 1rem;
                 border-radius: 3px;
                 padding: 5px;
                 color: var(--blue-500);
                 border: 1px solid var(--blue-500)
-            }
-            
+            } 
         }
     }
+}
 
-    .cardFlavor {
-        color: var(--blue-500);
+.progress {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+
+    >button {
+        border: none;
+        border-radius: 10px;
+        padding:0.5rem;
+        background: var(--white);
+        color: var(--green-500);
         display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        align-items: center;
+        transition: filter 0.2s;
 
-        >div {
-            >h1 {
-                margin-bottom: 0.5rem;
-            }
-
-            >select {
-                margin-bottom: 1rem;
-                border-radius: 3px;
-                padding: 5px;
-                color: var(--blue-500);
-                border: 1px solid var(--blue-500)
-            }
-            
+        svg {
+            width: 20px;
+            height: 20px;
+            color: var(--green-500);
         }
     }
-
-    .cardFinished {
-        background: var(--red-500)
+    >button:hover {
+        filter: brightness(0.9)
     }
 }

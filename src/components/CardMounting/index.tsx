@@ -15,21 +15,21 @@ export function CardMounting() {
                 <div className={styles.cardChoose}>
                     <img src="/images/pizza-calabresa.jpg" alt="calabresa" />
                     <div>
-                        <label>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. </label>
+                        <label>Contrary to popular belief, Lorem Ipsum is not simply random text. </label>
                     </div>
                     <input type="radio" /* value={amount} onChange={event => setAmount(Number(event.target.value))} */ /> 
                 </div>
                 <div className={styles.cardChoose}>
                     <img src="/images/pizza-calabresa.jpg" alt="calabresa" />
                     <div>
-                        <label>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</label>
+                        <label>Contrary to popular belief, Lorem Ipsum is not simply random text.</label>
                     </div>
                     <input type="radio" /* value={amount} onChange={event => setAmount(Number(event.target.value))} */ /> 
                 </div>
                 <div className={styles.cardChoose}>
                     <img src="/images/pizza-calabresa.jpg" alt="calabresa" />
                     <div>
-                        <label>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</label>
+                        <label>Contrary to popular belief, Lorem Ipsum is not simply random text.</label>
                     </div>
                     <input type="radio" /* value={amount} onChange={event => setAmount(Number(event.target.value))} */ /> 
                 </div>
