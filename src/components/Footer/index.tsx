@@ -6,7 +6,9 @@ export function Footer() {
         <footer className={styles.footerContainer}>
             <div className={styles.footerContent}>
                 <span>&copy; 2021 Copyright - Fernando Melo</span>
-                <FaGithub />
+                <button onClick={() => window.location.href = "https://github.com/nandoapm/pizzaria-stoom"}>
+                    <FaGithub />
+                </button>
             </div>
         </footer>
     )

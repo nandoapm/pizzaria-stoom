@@ -14,15 +14,16 @@ export function CardToday(props) {
             }
         })
         setPromotion(today)
+        
     },[props.today])
 
     const handleToday = async () => {
         const pts = promotion[0].points
+        console.log(pts)
         const pointsOld =  localStorage.getItem('points');
-        console.log(pointsOld + pts)
-        localStorage.clear();
-        localStorage.setItem('points', pointsOld);
-        //window.location.href = '/'
+        console.log(parseInt(pointsOld) )
+        localStorage.setItem('points', parseInt(pointsOld) + pts)
+        window.location.href = '/'
     }
 
     return (

@@ -31,6 +31,7 @@ export default function CreateOrder() {
             setAdditionals(res.data[0].additionals)
             setFlavors(res.data[0].flavors)
         })
+
         localStorage.setItem('points', "");
     }, [])
 

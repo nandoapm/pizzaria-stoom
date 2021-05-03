@@ -10,16 +10,21 @@
         align-items: center;
         justify-content: center;
 
-        >svg {
-            width: 20px;
-            height: 20px;
-            color: var(--white);
-            cursor: pointer;
-        }
-
         >span {
             padding-right: 0.5rem;
             color: var(--white)
+        }
+
+        >button {
+            background: transparent;
+            border: none;
+
+            >svg {
+                width: 20px;
+                height: 20px;
+                color: var(--white);
+                cursor: pointer;
+            }
         }
     }
 }
